@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* CONTACT & NAV BAR STYLING */
+#contact-container
+{
+    background-color: rgb(5, 5, 114);
+}
+
+#top-nav-icon-container i
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#top-nav-icon-container
+{
+    border-top: 2px solid white;
+    background-color: rgb(5, 5, 114);
+}
+
+.navbar-brand
+{
+    font-family: cursive; 
+    color: gray
+}
+/* HUGE BACKGROUND IMAGE SECTION STYLING */
+#background-writeup
+{
+    background-image: url(https://images.unsplash.com/photo-1600255940203-05fd89e1d7af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRvdXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1000px;
+}
+
+/* SINGLE IMAGE SECTION STYLING */
+#single-image-section h3
+{
+    font-family: cursive;
+    color:  #91ac41;
+    font-style: italic;
+    font-size: 19px;
+}
+
+#single-image-section img
+{
+    width: 140px;  
+    border-radius: 50%; 
+    text-align: center; 
+    margin: 0px auto;
+    border: 3px solid #91ac41;
+}
+
+/*CARDS SECTION STYLING */
+#cards button
+{
+    /* padding: 10px 100px; */
+    font-weight: bold;
+    /* background-color:  rgb(5, 5, 114); */
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+/*INSTA SECTION STYLING*/
+#para
+{
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+/* FORM SECTION */
+#form-container
+{
+    width: 85%;
+    margin: 0px auto;
+    /* background-color: rgb(36, 190, 241); */
+    padding: 10px 5px;
+}
+
+#form-container input
+{
+    width: 95%;
+    margin: 0px auto;
+}
+
+#form-container button
+{
+    /* width: 95%; */
+    margin: 0px auto;
+}
+
+#writeup
+{
+    width: 85%;
+    margin: 0px auto;  
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(5, 5, 114) ;
+}
+
+#writeup h5
+{
+    font-size: 16px;
+}
+
+/* INFO-COLORED DIV SECTION */
+#info-colored
+{
+    padding: 15px;
+}
+
+#info-colored h1
+{
+    visibility: hidden;
+}
